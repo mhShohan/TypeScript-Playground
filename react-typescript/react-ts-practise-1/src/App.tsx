@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Heading, { Typography } from './components/Heading';
 import Person from './components/Person';
 
@@ -16,10 +15,7 @@ const person1 = {
     },
 };
 
-type StateType = { name: string; email: string };
-
 const App = () => {
-    const [user, setUser] = useState<StateType | null>(null);
     return (
         <div className='app'>
             <Person {...person1} />

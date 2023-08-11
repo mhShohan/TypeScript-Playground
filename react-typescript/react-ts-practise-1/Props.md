@@ -1,6 +1,6 @@
 # Passing the props types
 
-### Add Props Types
+## Add Props Types
 
 ```js
 type Skill = {
@@ -34,7 +34,7 @@ const Person = ({ name, age, skills, isActive, address }: PersonProps) => {
 export default Person;
 ```
 
-### Import Component with props
+## Import Component with props
 
 ```js
 import Person from './components/Person';
@@ -64,7 +64,7 @@ const App = () => {
 export default App;
 ```
 
-### Another Props Example
+## Another Props Example
 
 ```js
 type HeadingProps = {
@@ -82,7 +82,7 @@ export const Typography = ({ children }: { children: string }) => {
 export default Heading;
 ```
 
-### Event Props
+## Event Props
 
 ```js
 // Button Event
@@ -117,7 +117,7 @@ const Input = ({ handleChange, value, type, placeholder }: InputProps) => {
 };
 ```
 
-### Style Props
+## Style Props
 
 ```js
 type StyleProps = {
