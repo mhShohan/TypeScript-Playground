@@ -10,8 +10,8 @@ const person1 = {
     ],
     isActive: true,
     address: {
-        city: 'pabna',
-        country: 'bd',
+        // city: 'pabna',
+        // country: 'bd',
     },
 };
 

@@ -9,8 +9,8 @@ type PersonProps = {
     skills: Skill[];
     isActive: boolean;
     address: {
-        city: string;
-        country: string;
+        city?: string; //optional
+        country?: string; //optional
     };
 };
 
