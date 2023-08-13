@@ -2,8 +2,8 @@ type HeadingProps = {
     children: React.ReactNode;
 };
 
-const Heading = (props: HeadingProps) => {
-    return <div>{props.children}</div>;
+const Heading = ({ children }: HeadingProps) => {
+    return <div>{children}</div>;
 };
 
 export const Typography = ({ children }: { children: string }) => {
