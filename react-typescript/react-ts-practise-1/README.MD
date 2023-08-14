@@ -1,4 +1,6 @@
 # React Typescript Helper
 
--   [Props types](./Props.md)
--   [useState types](./useState.md)
+-   [Props types](./readme/Props.md)
+-   [useState types](./readme/useState.md)
+-   [useReducer](./readme/useReducer.md)
+-   [useContext](./readme/useContext.md)
