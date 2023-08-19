@@ -4,3 +4,5 @@
 -   [useState types](./readme/useState.md)
 -   [useReducer](./readme/useReducer.md)
 -   [useContext](./readme/useContext.md)
+-   [useRef](./readme/useRef.md)
+-   [generic type](./readme/generics_props.md)
