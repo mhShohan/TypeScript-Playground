@@ -1,17 +1,6 @@
-import React from 'react';
+# Custom Button with type props
 
-// Button Event
-type BtnProps = {
-    children: string;
-    handleClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
-};
-
-const Button = ({ handleClick, children }: BtnProps) => {
-    return <button onClick={(event) => handleClick(event)}>{children}</button>;
-};
-
-export default Button;
-
+```ts
 type CustomBtnProps = {
     variant: 'primary' | 'secondary';
 } & React.ComponentProps<'button'>;
@@ -23,9 +12,14 @@ const CustomBtn = ({ variant, children, ...rest }: CustomBtnProps) => {
         </button>
     );
 };
+```
 
+# Custom Input with typed props
+
+```ts
 type InputProps = React.ComponentProps<'input'>;
 
 const Input = (props: InputProps) => {
     return <input {...props} />;
 };
+```
