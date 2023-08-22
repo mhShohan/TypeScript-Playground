@@ -11,4 +11,8 @@ class Student implements InterfaceProps {
 // superclass can be used as interface
 class Employee implements Student {
     constructor(public id: string, public name: string, public age: number) {}
+
+    getName() {
+        console.log(this.name);
+    }
 }
