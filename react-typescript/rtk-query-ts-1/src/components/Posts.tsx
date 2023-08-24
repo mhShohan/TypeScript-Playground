@@ -2,7 +2,7 @@ import {
   useGetPostQuery,
   useCreatePostMutation,
   useDeletePostMutation,
-} from '../store/features/postApi';
+} from '../store/services/postApi';
 
 const Posts = () => {
   /// data fetching hook
